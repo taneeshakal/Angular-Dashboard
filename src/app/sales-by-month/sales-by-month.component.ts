@@ -8,6 +8,7 @@ import { Chart } from 'angular-highcharts';
 })
 export class SalesByMonthComponent implements OnInit {
 
+  // Chart configuration using angular-highcharts library
   chart=new Chart({
     chart:{
       type:'line',
