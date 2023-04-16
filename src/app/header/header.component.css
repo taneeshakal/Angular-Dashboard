@@ -1,0 +1,37 @@
+/* header.component.css */
+
+/* This is the CSS for the header component */
+.header {
+  height: 70px;
+  padding: 20px 50px;
+  background-color: #33b3a6;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px #939393;
+  border: 3px solid #fff;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #40e0d0;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

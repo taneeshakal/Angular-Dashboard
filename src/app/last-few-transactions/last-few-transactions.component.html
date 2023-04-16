@@ -1,0 +1,18 @@
+<div class="transactions">
+  <div class="title">Last few transactions</div> <!-- Title of the component -->
+  <div class="transaction-wrapper">
+    <div class="transaction" *ngFor="let transaction of transactions"> <!-- Iterating through transactions array -->
+      <div class="image">
+        <img [src]="transaction.imgSrc" alt=""> <!-- Displaying transaction image -->
+      </div>
+      <div class="title2">{{transaction.title}}</div> <!-- Displaying transaction title -->
+      <div class="price">{{transaction.price}}</div> <!-- Displaying transaction price -->
+      <div class="shop-location">
+        <div class="shop">{{transaction.shop}}</div> <!-- Displaying shop name of the transaction -->
+        <div class="location">{{transaction.location}}</div> <!-- Displaying location of the shop -->
+      </div>
+      <div class="status"></div> <!-- Placeholder for transaction status -->
+    </div>
+  </div>
+</div>
+
